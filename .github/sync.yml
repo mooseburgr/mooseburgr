@@ -1,7 +1,23 @@
 group:
   repos: |
-    mooseburgr/rss-to-ical
-    mooseburgr/rss-to-ical-go
+    mooseburgr/rss-to-ical-go	
+    mooseburgr/rss-to-ical		
+    mooseburgr/repository-settings-action		
+    mooseburgr/terraform-stuff		
+    mooseburgr/sync-ical-to-sportsengine	
+    mooseburgr/plex-utils		
+    mooseburgr/.github		
+    mooseburgr/plex-daddy	
+    mooseburgr/deno-sandbox	
+    mooseburgr/rust-sandbox
+    mooseburgr/plexy-upptime
+    mooseburgr/advent-2021
+    mooseburgr/docker-dev-env
+    mooseburgr/code-with-quarkus
+    mooseburgr/kotlin-sandbox
+    mooseburgr/python-sandbox
+    mooseburgr/mooseburgr.github.io
+
   files: 
     - .github/CODEOWNERS
     - .github/settings.yml
