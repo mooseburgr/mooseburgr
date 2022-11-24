@@ -1,6 +1,6 @@
 group:
   repos: |
-    mooseburgr/*
+    mooseburgr
   files: 
     - .github/CODEOWNERS
     - .github/settings.yml
