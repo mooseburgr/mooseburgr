@@ -19,7 +19,8 @@ group:
     mooseburgr/mooseburgr.github.io
 
   files: 
+    - .gitattributes
     - .github/CODEOWNERS
     - .github/settings.yml
     - .github/dependabot.yml
-    - .gitattributes
+    - .github/mergify.yml
