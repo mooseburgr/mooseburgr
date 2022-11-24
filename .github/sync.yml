@@ -5,4 +5,5 @@ group:
   files: 
     - .github/CODEOWNERS
     - .github/settings.yml
+    - .github/dependabot.yml
     - .gitattributes
