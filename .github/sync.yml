@@ -1,0 +1,7 @@
+group:
+  repos: |
+    mooseburgr/rss-to-ical
+  files: 
+    - .github/CODEOWNERS
+    - .github/settings.yml
+    - .gitattributes
