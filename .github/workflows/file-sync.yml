@@ -17,3 +17,4 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           GIT_USERNAME: github-actions[bot]
           GIT_EMAIL: github-actions[bot]@users.noreply.github.com
+          COMMIT_EACH_FILE: false
