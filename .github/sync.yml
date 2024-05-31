@@ -2,7 +2,8 @@ group:
   repos: |
     mooseburgr/rss-to-ical
     mooseburgr/rss-to-ical-j		
-    mooseburgr/repository-settings-action		
+    mooseburgr/repository-settings-action
+    mooseburgr/repository-settings-action-ts
     mooseburgr/terraform-stuff		
     mooseburgr/sync-ical-to-sportsengine	
     mooseburgr/plex-utils		
