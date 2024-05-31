@@ -14,13 +14,13 @@ group:
     mooseburgr/kmj-wtf-upptime
     mooseburgr/advent-2021
     mooseburgr/advent-2022
-    mooseburgr/code-with-quarkus
     mooseburgr/kotlin-sandbox
     mooseburgr/python-sandbox
     mooseburgr/mooseburgr.github.io
 
   files: 
-    - .gitattributes
+    - source: .gitattributes
+      replace: false
     - .github/CODEOWNERS
     - .github/settings.yml
     - source: .github/dependabot.yml
