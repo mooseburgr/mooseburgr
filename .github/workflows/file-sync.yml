@@ -21,4 +21,4 @@ jobs:
           PR_LABELS: |
             sync
             ${{ github.repository_owner }}
-#          SKIP_PR: true # commit directly to main, YOLO
+          SKIP_PR: true # commit directly to main, YOLO
