@@ -1,15 +1,14 @@
 group:
   repos: |
     mooseburgr/rss-to-ical
-    mooseburgr/rss-to-ical-j		
+    mooseburgr/rss-to-ical-j
     mooseburgr/repository-settings-action
-    mooseburgr/repository-settings-action-ts
-    mooseburgr/terraform-stuff		
-    mooseburgr/sync-ical-to-sportsengine	
-    mooseburgr/plex-utils		
-    mooseburgr/.github		
-    mooseburgr/plex-daddy	
-    mooseburgr/deno-sandbox	
+    mooseburgr/terraform-stuff
+    mooseburgr/sync-ical-to-sportsengine
+    mooseburgr/plex-utils
+    mooseburgr/.github
+    mooseburgr/plex-daddy
+    mooseburgr/deno-sandbox
     mooseburgr/rust-sandbox
     mooseburgr/kmj-wtf-upptime
     mooseburgr/advent-2021
@@ -18,7 +17,7 @@ group:
     mooseburgr/python-sandbox
     mooseburgr/mooseburgr.github.io
 
-  files: 
+  files:
     - source: .gitattributes
       replace: false
     - .github/CODEOWNERS
