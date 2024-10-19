@@ -16,6 +16,7 @@ group:
     mooseburgr/kotlin-sandbox
     mooseburgr/python-sandbox
     mooseburgr/mooseburgr.github.io
+    mooseburgr/ical-party
 
   files:
     - source: .gitattributes
