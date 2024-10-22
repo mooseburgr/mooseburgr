@@ -22,7 +22,8 @@ group:
     - source: .gitattributes
       replace: false
     - .github/CODEOWNERS
-    - .github/settings.yml
+    - source: .github/settings.yml
+      replace: false
     - source: .github/dependabot.yml
       replace: false
     - .github/mergify.yml
