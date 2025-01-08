@@ -22,3 +22,4 @@ jobs:
             sync
             ${{ github.repository_owner }}
           SKIP_PR: true # commit directly to main, YOLO
+          ASSIGNEES: ${{ github.actor }}
