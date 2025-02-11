@@ -3,7 +3,6 @@ group:
     mooseburgr/rss-to-ical
     mooseburgr/rss-to-ical-j
     mooseburgr/repository-settings-action
-    mooseburgr/terraform-stuff
     mooseburgr/sync-ical-to-sportsengine
     mooseburgr/plex-utils
     mooseburgr/.github
