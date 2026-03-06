@@ -1,0 +1,34 @@
+{
+    "LimeTorrents.lol - RSS Feed": {
+        "uid": "{08fb2042-4850-4751-a718-7ee29dd81b20}",
+        "url": "https://www.limetorrents.lol/rss/"
+    },
+    "PSArips": {
+        "uid": "{ecf0f20b-3cef-4b89-b6d4-8078587319e3}",
+        "url": "https://psa.wf/feed/"
+    },
+    "TV Torrents RSS feed - EZTV": {
+        "uid": "{108091fb-2c23-405b-9580-c7ac3c112929}",
+        "url": "https://eztvx.to/ezrss.xml"
+    },
+    "The Pirate Bay - Video": {
+        "uid": "{795bed54-e069-4a34-b382-314a2fe9880e}",
+        "url": "https://tpb.party/rss//top100/200"
+    },
+    "TorrentLeech": {
+        "uid": "{f7210076-ad24-4f81-825a-d6d07fd2aed9}",
+        "url": "https://rss.torrentleech.org/c4666e7e3fc1a2c63a53"
+    },
+    "YTS RSS": {
+        "uid": "{9c222880-bb16-4991-9e01-8d2a5779529a}",
+        "url": "https://yts.lt/rss"
+    },
+    "showRSS personal feed": {
+        "uid": "{6737c44d-2585-4f65-9fc2-01f8445aea55}",
+        "url": "https://showrss.info/user/205730.rss?magnets=true&namespaces=true&name=null&quality=null&re=null"
+    },
+    "www.scenetime.com": {
+        "uid": "{91cc533f-91cd-4d8e-a88b-63afe530e14e}",
+        "url": "https://scenetime.com/newrss.php?feed=direct&passkey=afd3f5a02a0fe62827e7c97b5341dabd&cat=47,64,59,57,16,4,116,1,9,43,77,2"
+    }
+}
