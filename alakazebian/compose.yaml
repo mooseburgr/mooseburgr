@@ -1,0 +1,65 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/compose-spec/compose-spec/refs/heads/main/schema/compose-spec.json
+
+
+version: '3'
+services:
+  
+  # https://github.com/Tautulli/Tautulli/wiki/Installation#using-docker-compose
+  tautulli:
+    # https://github.com/Tautulli/Tautulli/releases
+    image: ghcr.io/tautulli/tautulli:v2.17.2
+    container_name: tautulli
+    restart: unless-stopped
+    volumes:
+      - /home/kyle/.config/tautulli:/config
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Chicago
+    ports:
+      - 8181:8181
+  
+  # https://actualbudget.org/docs/install/docker/
+  actual_server:
+    # https://github.com/actualbudget/actual/releases
+    image: docker.io/actualbudget/actual-server:26.7.0
+    ports:
+      - '5006:5006'
+    environment:
+      # - ACTUAL_HTTPS_KEY=/data/selfhost.key
+      # - ACTUAL_HTTPS_CERT=/data/selfhost.crt
+      - ACTUAL_PORT=5006
+      # - ACTUAL_UPLOAD_FILE_SYNC_SIZE_LIMIT_MB=20
+      # - ACTUAL_UPLOAD_SYNC_ENCRYPTED_FILE_SYNC_SIZE_LIMIT_MB=50
+      # - ACTUAL_UPLOAD_FILE_SIZE_LIMIT_MB=20
+      # See all options and more details at https://actualbudget.org/docs/config/
+    volumes:
+      - /home/kyle/.config/actual-budget-data:/data
+    healthcheck:
+      # Enable health check for the instance
+      test: ['CMD-SHELL', 'node scripts/health-check.js']
+      interval: 60s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    restart: unless-stopped
+
+  # https://github.com/Dispatcharr/Dispatcharr/blob/main/docker/docker-compose.aio.yml
+  dispatcharr:
+    # https://github.com/Dispatcharr/Dispatcharr/releases
+    image: ghcr.io/dispatcharr/dispatcharr:0.27.2
+    restart: unless-stopped
+    container_name: dispatcharr
+    ports:
+      - 9191:9191
+    volumes:
+      - dispatcharr_data:/data
+    environment: # https://dispatcharr.github.io/Dispatcharr-Docs/
+      - DISPATCHARR_ENV=aio
+      - REDIS_HOST=localhost
+      - CELERY_BROKER_URL=redis://localhost:6379/0
+      - DISPATCHARR_LOG_LEVEL=info
+
+
+volumes:
+  dispatcharr_data:
