@@ -22,7 +22,7 @@ services:
   # https://actualbudget.org/docs/install/docker/
   actual_server:
     # https://github.com/actualbudget/actual/releases
-    image: docker.io/actualbudget/actual-server:26.7.0
+    image: docker.io/actualbudget/actual-server:26.10.0@sha256:24645e971da6bb1a1f953d6859e307a0b29be1e8b4130a35b3220c209b5b860c
     ports:
       - '5006:5006'
     environment:
