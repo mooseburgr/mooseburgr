@@ -7,7 +7,7 @@ services:
   # https://github.com/Tautulli/Tautulli/wiki/Installation#using-docker-compose
   tautulli:
     # https://github.com/Tautulli/Tautulli/releases
-    image: ghcr.io/tautulli/tautulli:v2.17.2
+    image: ghcr.io/tautulli/tautulli:v2.19.1@sha256:239cd6dbc429a0eb441bdf88a7a015871e2d4d6e02b6e6039af30c0487528a8e
     container_name: tautulli
     restart: unless-stopped
     volumes:
