@@ -47,7 +47,7 @@ services:
   # https://github.com/Dispatcharr/Dispatcharr/blob/main/docker/docker-compose.aio.yml
   dispatcharr:
     # https://github.com/Dispatcharr/Dispatcharr/releases
-    image: ghcr.io/dispatcharr/dispatcharr:0.27.2
+    image: ghcr.io/dispatcharr/dispatcharr:0.34.1@sha256:3716ebb0aba133fe8b3d311505dc49966b7fddff742d9ab710ccd19d04658195
     restart: unless-stopped
     container_name: dispatcharr
     ports:
